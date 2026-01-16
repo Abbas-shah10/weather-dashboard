@@ -28,7 +28,6 @@ const WeatherDashboard = () => {
       setLoading(false);
     }
   };
-  console.log(import.meta.env.VITE_WEATHER_KEY);
 
   const formatIcon = (icon) => {
     if (!icon) return null;
