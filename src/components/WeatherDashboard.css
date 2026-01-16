@@ -154,3 +154,86 @@
     width: 100%;
   }
 }
+
+/* Small screens: stack controls, reduce spacing and scale text/icons */
+@media (max-width: 600px) {
+  .weather-dashboard {
+    padding: 1.25rem;
+    border-radius: 14px;
+  }
+  .wd-header {
+    text-align: left;
+  }
+  .wd-title {
+    font-size: 1.45rem;
+  }
+  .wd-sub {
+    font-size: 0.9rem;
+  }
+  .wd-search {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+  .wd-input {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  .wd-button {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  .wd-card {
+    gap: 1rem;
+  }
+  .wd-card-left,
+  .wd-card-right {
+    padding: 1rem;
+  }
+  .wd-temp {
+    gap: 0.6rem;
+  }
+  .wd-icon {
+    width: 58px;
+    height: 58px;
+  }
+  .wd-temp-value {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .weather-dashboard {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 10px;
+  }
+  .wd-title {
+    font-size: 1.2rem;
+  }
+  .wd-sub {
+    font-size: 0.85rem;
+  }
+  .wd-search {
+    gap: 0.45rem;
+  }
+  .wd-input {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.95rem;
+  }
+  .wd-button {
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+  .wd-icon {
+    width: 48px;
+    height: 48px;
+  }
+  .wd-temp-value {
+    font-size: 1.85rem;
+  }
+  .wd-details {
+    gap: 0.45rem;
+  }
+}
