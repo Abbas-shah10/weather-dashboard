@@ -15,9 +15,9 @@ const WeatherDashboard = () => {
     setError("");
     try {
       const res = await axios.get(
-        `http://api.weatherapi.com/v1/current.json?key=6d86e5072c6f4c8ca5420923261701&q=${encodeURIComponent(
-          city
-        )}`
+        `http://api.weatherapi.com/v1/current.json?key=${
+          import.meta.env.VITE_WEATHER_KEY
+        }&q=${encodeURIComponent(city)}`
       );
       setWeatherData(res.data);
     } catch (err) {
@@ -28,6 +28,7 @@ const WeatherDashboard = () => {
       setLoading(false);
     }
   };
+  console.log(import.meta.env.VITE_WEATHER_KEY);
 
   const formatIcon = (icon) => {
     if (!icon) return null;
