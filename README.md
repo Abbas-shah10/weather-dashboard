@@ -1,40 +1,43 @@
 
+Live Preview: https://weather-dashboard-five-beige.vercel.app/
+
 🌦️ Weather Dashboard (React)
 
 A modern and responsive Weather Dashboard built with React that allows users to search for any city and view real-time weather information. The application fetches live data from a weather API and displays current temperature, weather conditions, humidity, wind speed, and a multi-day forecast.
 
 The project demonstrates core React concepts such as functional components, hooks (useState, useEffect), API integration, and conditional rendering. It is fully responsive and optimized for a smooth user experience across devices.
 
-🚀 Features
+🚀 Features:
 
-Search weather by city name
+    1) Search weather by city name
 
-Real-time weather data
+    2) Real-time weather data
 
-Current conditions (temperature, humidity, wind speed)
+    3) Current conditions (temperature, humidity, wind speed)
 
-5-day weather forecast
+    4) 5-day weather forecast
 
-Dynamic weather icons
+    5) Dynamic weather icons
 
-Error handling for invalid city searches
+    6) Error handling for invalid city searches
 
-Responsive UI for mobile and desktop
+    7) Responsive UI for mobile and desktop
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 
-React
+    1) JavaScript (ES6+)
 
-JavaScript (ES6+)
+    2) React
 
-CSS 
+    3) CSS 
 
-Weather API (WeatherApi.com)
+    4) Weather API (WeatherApi.com)
 
-📦 Concepts Used
+📦 Concepts Used:
 
-React Hooks (useState)
+    1) React Hooks (useState)
 
-API fetching with fetch / axios
+    2) API fetching with fetch / axios
 
-Component-based architecture
+    3) Component-based architecture
+
