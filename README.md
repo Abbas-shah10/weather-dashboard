@@ -5,7 +5,7 @@ A modern and responsive Weather Dashboard built with React that allows users to 
 
 The project demonstrates core React concepts such as functional components, hooks (useState, useEffect), API integration, and conditional rendering. It is fully responsive and optimized for a smooth user experience across devices.
 
-🚀 Features
+#🚀 Features
 
 Search weather by city name
 
