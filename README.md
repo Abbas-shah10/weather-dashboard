@@ -1,4 +1,6 @@
 
+Live Preview: https://weather-dashboard-five-beige.vercel.app/
+
 🌦️ Weather Dashboard (React)
 
 A modern and responsive Weather Dashboard built with React that allows users to search for any city and view real-time weather information. The application fetches live data from a weather API and displays current temperature, weather conditions, humidity, wind speed, and a multi-day forecast.
